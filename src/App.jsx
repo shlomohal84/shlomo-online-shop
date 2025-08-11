@@ -1,4 +1,4 @@
-import { Route, HashRouter as Router, Routes, Navigate } from "react-router";
+import { Route, BrowserRouter as Router, Routes, Navigate } from "react-router";
 import { useEffect, useState } from "react";
 import GlobalContext from "./helpers/context/app.context";
 
