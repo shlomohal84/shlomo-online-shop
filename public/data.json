@@ -1,0 +1,209 @@
+{
+    "products": [
+        {
+            "id": "000",
+            "category": "consoles",
+            "name": "Sony Playstation 5",
+            "price": 450,
+            "summary": "For Sony-Fanboys",
+            "description": {
+                "cpu": "AMD Ryzen Zen 2. 8 Cores/16 Threads",
+                "gpu": "AMD Radeon RDNA 2-based graphics engine",
+                "ram": "16GB GDDR6/256-bit",
+                "internalStorage": "1TB SDD NVME 2.0"
+            },
+            "mainImg": "/images/products/ps5.png",
+            "thumbnails": [
+                "/images/thumbnails/01_ps5/01.png",
+                "/images/thumbnails/01_ps5/02.png",
+                "/images/thumbnails/01_ps5/03.png",
+                "/images/thumbnails/01_ps5/04.png",
+                "/images/thumbnails/01_ps5/05.png"
+            ],
+            "pageLink": "/pages/products/01_ps5.html"
+        },
+        {
+            "id": "001",
+            "category": "consoles",
+            "name": "Sony Playstation 4 Pro",
+            "price": 250,
+            "summary": "For Sony-Fanboys on 30fps",
+            "description": {
+                "cpu": "x86-64 AMD “Jaguar”, 8 cores",
+                "gpu": "AMD Radeon RDNA 2-based graphics engine",
+                "ram": "GDDR5 8GB",
+                "internalStorage": "500GB, 1TB"
+            },
+            "mainImg": "/images/products/ps4_pro.png",
+            "thumbnails": [
+                "/images/thumbnails/02_ps4_pro/01.png",
+                "/images/thumbnails/02_ps4_pro/02.png",
+                "/images/thumbnails/02_ps4_pro/03.png",
+                "/images/thumbnails/02_ps4_pro/04.png",
+                "/images/thumbnails/02_ps4_pro/05.png"
+            ]
+        },
+        {
+            "id": "002",
+            "category": "consoles",
+            "name": "Nintendo Switch",
+            "price": 400,
+            "summary": "Because Gfx don't matter",
+            "description": {
+                "cpu": "NVIDIA Custom Tegra processor",
+                "screen": "Multi-touch capacitive touch screen / 6.2-inch LCD Screen / 1280 x 720",
+                "internalStorage": "500GB, 1TB"
+            },
+            "mainImg": "/images/products/switch.png",
+            "thumbnails": [
+                "/images/thumbnails/03_switch/01.jpg",
+                "/images/thumbnails/03_switch/02.webp",
+                "/images/thumbnails/03_switch/03.jpg",
+                "/images/thumbnails/03_switch/04.jpg",
+                "/images/thumbnails/03_switch/05.jpg"
+            ]
+        },
+        {
+            "id": "003",
+            "category": "consoles",
+            "name": "Steam Deck",
+            "price": 350,
+            "summary": "Don't forget to send her your Deck pic",
+            "description": {
+                "cpu": "Zen 2 4c/8t, 2.4-3.5GHz (up to 448 GFlops FP32)",
+                "gpu": "8 RDNA 2 CUs, 1.6GHz (1.6 TFlops FP32)",
+                "ram": "16 GB LPDDR5 on-board RAM (6400 MT/s quad 32-bit channels)",
+                "internalStorage": "0.5/1TB NVMe SSD"
+            },
+            "mainImg": "/images/products/steam_deck.png",
+            "thumbnails": [
+                "/images/thumbnails/04_steam_deck/01.jpg",
+                "/images/thumbnails/04_steam_deck/02.jpg",
+                "/images/thumbnails/04_steam_deck/03.webp",
+                "/images/thumbnails/04_steam_deck/04.jpg",
+                "/images/thumbnails/04_steam_deck/05.webp"
+            ]
+        },
+        {
+            "id": "004",
+            "category": "consoles",
+            "name": "Microsoft Xbox X",
+            "price": 450,
+            "summary": "For Microsoft Fanboys (If there are any...)",
+            "description": {
+                "cpu": "8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU",
+                "gpu": "12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU",
+                "ram": "16GB GDDR6 w/320 bit-wide bus",
+                "internalStorage": "1TB Custom NVME SSD"
+            },
+            "mainImg": "/images/products/xbox_x.png",
+            "thumbnails": [
+                "/images/thumbnails/05_xbox_x/01.jpg",
+                "/images/thumbnails/05_xbox_x/02.jpg",
+                "/images/thumbnails/05_xbox_x/03.png",
+                "/images/thumbnails/05_xbox_x/04.jpg",
+                "/images/thumbnails/05_xbox_x/05.png"
+            ]
+        },
+        {
+            "id": "005",
+            "category": "games",
+            "name": "The Last Of Us Part I",
+            "price": 59,
+            "summary": "Cross Platform",
+            "description": {},
+            "mainImg": "/images/products/tlou1.jpg",
+            "thumbnails": []
+        },
+        {
+            "id": "006",
+            "category": "games",
+            "name": "The Last Of Us Part II - Remastered",
+            "price": 69,
+            "summary": "",
+            "mainImg": "/images/products/tlou_2_ps5_remastered.jpg",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "007",
+            "category": "games",
+            "name": "Metal Gear Solid 3 Δ - Snake Eater",
+            "price": 40,
+            "summary": "",
+            "mainImg": "/images/products/mgs_detla_snake_eater.webp",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "008",
+            "category": "smartphones",
+            "name": "Xiaomi Poco x5 Pro",
+            "price": 350,
+            "summary": "",
+            "mainImg": "/images/products/xiaomi_poco_x5pro.jpg",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "009",
+            "category": "smartphones",
+            "name": "Iphone 15 Pro",
+            "price": 2500,
+            "summary": "",
+            "mainImg": "/images/products/iphone15.jpg",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "010",
+            "category": "smartphones",
+            "name": "Samsung Galaxy S24",
+            "price": 1500,
+            "summary": "",
+            "mainImg": "/images/products/galaxy_s24.jpg",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "011",
+            "category": "smartphones",
+            "name": "Nokia 3110",
+            "price": 20,
+            "summary": "",
+            "mainImg": "/images/products/nokia_3310.png",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "012",
+            "category": "pc_parts",
+            "name": "Nvidia Gefoce 4090 RTX",
+            "price": 2500,
+            "summary": "",
+            "mainImg": "/images/products/nvidia_4090_rtx.png",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "013",
+            "category": "pc_parts",
+            "name": "Kingston FURY 2x32gb DDR5s",
+            "price": 200,
+            "summary": "",
+            "mainImg": "/images/products/ddr5.jpg",
+            "description": {},
+            "thumbnails": []
+        },
+        {
+            "id": "014",
+            "category": "pc_parts",
+            "name": "Samsung 990 PRO NVMe 4TB SSD",
+            "price": 400,
+            "summary": "",
+            "mainImg": "/images/products/samsung_nvme.jpg",
+            "description": {},
+            "thumbnails": []
+        }
+    ]
+}

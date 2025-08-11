@@ -1,0 +1,40 @@
+.Sidebar {
+  position: absolute;
+  top: 155px;
+  width: 200px;
+  background-color: black;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bottom-link a,
+.nav-bottom-link button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.nav-bottom-link a:hover,
+.nav-bottom-link button:hover {
+  color: yellow;
+  border-bottom: yellow 2px solid;
+  border-radius: 5px;
+}
+
+/* .nav-bottom-links-container {
+  display: none;
+} */
+
+.burger-button {
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+}
