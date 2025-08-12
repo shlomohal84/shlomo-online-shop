@@ -13,7 +13,9 @@ export default function SingleProduct() {
   const product = products && products.find((p) => p.id === id);
 
   const [counter, setCounter] = useState(1);
-  const [currentMainImg, setCurrentMainImg] = useState(products && product && product.mainImg);
+  const [currentMainImg, setCurrentMainImg] = useState(
+    products && product && product.mainImg
+  );
 
   const [wasMouseOver, setWasMouseOver] = useState(false);
   const handleCounterChange = (operator) => {
@@ -34,10 +36,16 @@ export default function SingleProduct() {
   };
   return (
     <div className={styles["product-container"]}>
-      <h2 className={styles["product-page-header"]}>{product && product.name}</h2>
+      <h2 className={styles["product-page-header"]}>
+        {product && product.name}
+      </h2>
       <div className={styles["img-group"]}>
         <div className={styles["main-img-wrapper"]}>
-          <img className={styles["main-img"]} src={currentMainImg} alt="product-photo" />
+          <img
+            className={styles["main-img"]}
+            src={!wasMouseOver ? product && product.mainImg : currentMainImg}
+            alt="product-photo"
+          />
         </div>
         <div className={styles["product-thumbnails-container"]}>
           {product &&
@@ -62,11 +70,21 @@ export default function SingleProduct() {
       </p>
       <ProductButtons product={product} />
       <div className={styles["qty-group"]}>
-        <button className={styles["decrease-button"]} onClick={() => handleCounterChange("-")}>
+        <button
+          className={styles["decrease-button"]}
+          onClick={() => handleCounterChange("-")}
+        >
           -
         </button>
-        <input value={counter} readOnly={true} className={styles["qty-input"]} />
-        <button className={styles["increase-button"]} onClick={() => handleCounterChange("+")}>
+        <input
+          value={counter}
+          readOnly={true}
+          className={styles["qty-input"]}
+        />
+        <button
+          className={styles["increase-button"]}
+          onClick={() => handleCounterChange("+")}
+        >
           +
         </button>
       </div>
