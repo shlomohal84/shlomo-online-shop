@@ -11,14 +11,17 @@ export default function Cart() {
       <h3 className="category-header">
         <span>Cart</span>
       </h3>
-      {cart.products.length > 0 && (
+      {cart.products && cart.products.length > 0 && (
         <Link to="/checkout">
           <Button>Proceed to checkout</Button>
         </Link>
       )}
       <h3>Subtotal: {subtotal + "$"}</h3>
       <div className="category">
-        {cart.products && cart.products.map((product, i) => <ProductCard key={i} product={product} />)}
+        {cart.products &&
+          cart.products.map((product, i) => (
+            <ProductCard key={i} product={product} />
+          ))}
       </div>
     </>
   );
