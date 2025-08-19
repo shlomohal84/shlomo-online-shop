@@ -1,25 +1,32 @@
 .Carousel {
-    background-color: rgb(0, 0, 0, 0.5);
-    justify-self: center;
-    padding-top: 50px;
-    margin-top: 30px;
-    width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  justify-self: center;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
 }
 
 .img-wrapper {
-    height: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-    overflow: hidden;
+  justify-self: center;
+  height: 250px;
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.carousel-img {
+  max-height: 70%;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
-    .carousel-img {
-        max-width: 80%;
-    }
-    .Carousel {
-        width: 60%;
-    }
+  .Carousel {
+    width: 60%;
+    padding-top: 50px;
+  }
+  .img-wrapper {
+    align-items: center;
+    height: 300px;
+  }
 }
